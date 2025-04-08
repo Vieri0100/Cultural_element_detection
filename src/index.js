@@ -9,7 +9,7 @@ const threshold = 0.75;
 
 async function load_model() {
   const model = await loadGraphModel(
-    "https://raw.githubusercontent.com/hugozanini/TFJS-object-detection/master/models/kangaroo-detector/model.json"
+    "https://raw.githubusercontent.com/Vieri0100/Cultural_element_detection/main/models/element_detector/model.json"
   );
   return model;
 }
